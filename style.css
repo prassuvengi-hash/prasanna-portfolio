@@ -705,3 +705,52 @@ footer .wrap {
     .stat-num { font-size: 1.9rem; }
     .api-card { font-size: 0.76rem; }
 }
+
+/* ---------- Resume v3 additions ---------- */
+.hero-stack {
+    margin: 8px 0 0;
+    font-size: 0.82rem;
+    color: var(--accent);
+    letter-spacing: 0.01em;
+}
+
+.timeline { display: grid; gap: 28px; }
+
+.role-minor { gap: 2px; }
+.role-minor::before { background: var(--surface); border: 2px solid var(--muted); }
+.role-minor h3 { font-size: 1.05rem; font-weight: 600; }
+.role-minor .role-org { color: var(--muted); font-weight: 500; font-size: 0.93rem; }
+
+.project-featured { grid-column: 1 / -1; }
+.project-featured h3 { font-size: 1.5rem; }
+.project-featured p { max-width: 70ch; }
+
+.project-sub {
+    display: block;
+    margin-top: 4px;
+    font-family: var(--font-mono);
+    font-size: 0.78rem;
+    font-weight: 400;
+    color: var(--muted);
+    letter-spacing: 0;
+}
+
+.badge-outline {
+    background: transparent;
+    color: var(--amber);
+    border: 1px solid var(--amber);
+}
+
+.languages {
+    margin: 22px 0 0;
+    color: var(--muted);
+    font-size: 0.95rem;
+}
+
+.languages .mono {
+    margin-right: 10px;
+    font-size: 0.74rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent);
+}
