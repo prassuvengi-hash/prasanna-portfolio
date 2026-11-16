@@ -760,3 +760,25 @@ footer .wrap {
     font-weight: 600;
     color: var(--accent);
 }
+
+.btn-resume {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    height: 36px;
+    padding: 0 14px;
+    border-radius: 9px;
+    background: var(--ink);
+    color: var(--paper);
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.btn-resume svg { width: 16px; height: 16px; }
+.btn-resume:hover { opacity: 0.88; }
+
+@media (max-width: 420px) {
+    .btn-resume span { display: none; }
+    .btn-resume { padding: 0 10px; }
+}
